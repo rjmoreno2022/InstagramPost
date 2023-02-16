@@ -1,0 +1,99 @@
+/* * {
+    font-family: 'Inria Sans', sans-serif;
+} */
+
+body{
+    background-color: white;
+    margin: 0;
+    /* position: relative; */
+}
+
+.post{
+    min-height: 25vh;
+    height: 650px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 0rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+i {
+    align-self: center;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.perfil{
+    justify-self: flex-start;
+    display: flex;
+}
+
+.perfil-text{
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.post-settings{
+    justify-self: flex-end;
+}
+
+.logo-perfil{
+    font-size: 1.8em;
+}
+
+.ipostsettings{
+    font-size: 1.8em;
+}
+
+.title {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+.subtitle {
+    margin: 5px;
+    font-size: 0.7em;
+}
+
+.post-img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.post-footer{
+    margin: 10px;
+}
+
+.post-body{
+    text-align: justify;
+    text-justify: inter-word;
+    /* display: flex; */
+}
+
+.post-btns{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-btns-p2{
+    justify-self: flex-end;
+}
+
+.iguardar{
+    justify-self: flex-end;
+}
